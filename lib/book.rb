@@ -8,5 +8,11 @@ class Book < Product
   def to_s
     "Book \"#{@title}\", #{@genre}, author - #{@author}, #{@price} rub. (amount: #{@amount})"
   end
+
+  def update(params)
+    super
+    @genre = params[:genre] if params[:genre]
+    @author = params[:author] if params[:author]
+  end
 end
 

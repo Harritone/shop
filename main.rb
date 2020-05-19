@@ -7,6 +7,10 @@ fool = Movie.new(title: "Fool", year: 2014, director: "Iurii Bikov", price: 390,
 idiot = Book.new(title: "Idiot", genre: "novel", author: "Fedor Dostoevski", price: 1500, amount: 10)
 puts "We have such goods:"
 puts
+#leon.year = 1992
+#leon.amount = 5
+leon.update(year: 1994, amount: 5)
+idiot.update(title: "IdioT", genre: "Novel")
 puts leon.to_s
 puts fool.to_s
 puts idiot.to_s
