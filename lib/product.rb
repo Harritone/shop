@@ -1,5 +1,8 @@
 class Product
 attr_accessor :price, :amount, :title
+def self.from_file(path)
+  raise NotImplementedError
+end
   def initialize(params)
     @price = params[:price] 
     @amount = params[:amount]
