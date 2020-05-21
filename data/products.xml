@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products>
+  <product price="1000" amount="5">
+    <book title="Приключения Тома Сойера" author="Марк Твен"></book>
+  </product>
+  <product price="1100" amount="1">
+    <book title="Воспоминания Шерлока Холмса" author="Артур Конан Дойль"></book>
+  </product>
+  <product price="500" amount="2">
+    <disk album="Turbo" artist="Judas Priest" genre="Heavy Metal"></disk>
+  </product>
+  <product price="550" amount="3">
+    <disk album="Ram It Down" artist="Judas Priest" genre="Heavy Metal"></disk>
+  </product>
+  <product price="350" amount="3">
+    <movie title="Пролетая над грездом кукушки" director="Милош Форман" year="1975"></movie>
+  </product>
+</products>
